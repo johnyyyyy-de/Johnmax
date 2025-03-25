@@ -21,4 +21,20 @@ fun main() {
         println("letter is $letter")
     }
 
+    //break statement
+    for (x in 10..15){
+        if (x==12){
+            break
+        }
+        println("Number is $x")
+    }
+
+    //continue statement
+    for (myletter in 'a'..'d'){
+        if (myletter =='b'){
+            continue
+        }
+        println("letter is $myletter")
+    }
+
 }
